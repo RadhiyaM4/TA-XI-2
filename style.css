@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f5f5;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.change.positive {
+    color: green;
+}
+
+.change.negative {
+    color: red;
+}
+
+.stocks {
+     background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.stocks:hover {
+    transform: translateY(-5px);
+}

@@ -8,15 +8,40 @@
 </head>
 <body>
     <header>
-        <h1>Selamat Datang di Ekskul IT!</h1>
+        <h1>🤑 InvestTrack</h1>
+        <p>Pantau harga saham, crypto, dan mata uang</p>
     </header>
-    <nav>
-        <a href="index.html">Beranda</a> |
-        <a href="about.html">Tentang Kami</a> |
-        <a href="gallery.html">Galeri</a>
-    </nav>
-    <section>
-        <p>Ekskul IT membahas pemrograman, robotik, dan teknologi terkini.</p>
-    </section>
+
+    <div class="container">
+        <!-- Crypto Section -->
+        <section class="crypto">
+            <h2>💰 Crypto</h2>
+            <div class="card" id="bitcoin">
+                <h3>Bitcoin (BTC)</h3>
+                <p class="price">$<span id="btc-price">0</span></p>
+                <p class="change" id="btc-change">+0%</p>
+            </div>
+            <!-- Tambahkan card crypto lain -->
+        </section>
+
+        <!-- Saham Section -->
+        <section class="stocks">
+            <h2>📈 Saham IDX</h2>
+            <table>
+                <tr>
+                    <th>Kode</th>
+                    <th>Harga</th>
+                    <th>%</th>
+                </tr>
+                <tr>
+                    <td>BBCA</td>
+                    <td id="bbca-price">Rp8,500</td>
+                    <td class="change" id="bbca-change">-1.2%</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
